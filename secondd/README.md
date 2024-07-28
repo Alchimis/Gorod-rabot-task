@@ -36,6 +36,12 @@ sudo chmod -R 777 storage
 php artisan migrate
 ```
 
+Устанавливаем node пакеты:
+
+``` bash
+docker-compose exec node npm install
+```
+
 Запускаем node командой:
 
 ``` bash
